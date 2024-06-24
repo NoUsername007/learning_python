@@ -8,9 +8,7 @@ proceed = input("Do you want to access all your passwords? ").lower()
 
 
 passwords = {
-    "email" : "nothing",
-    "credit card" : "0007",
-    "locker" : "1191"
+
 }
 
 if proceed != 'yes' :
@@ -36,7 +34,7 @@ while proceed == "yes" :
             print()
 
         else :
-            print("You have not stored any passwords here.\n")
+            print("\nYou have not stored any passwords here.\n")
 
 
     def add_password () :
@@ -72,6 +70,6 @@ while proceed == "yes" :
             global proceed
             proceed = "no"
         else :
-            print("Entere a valid option")
+            print("\nEnter a valid option")
 
     commands()
